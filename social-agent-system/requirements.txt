@@ -1,0 +1,107 @@
+# Autonomous Social Media AI Agent System - Requirements
+
+# Core AI/LLM Frameworks
+langgraph>=0.2.50,<0.3
+langchain>=0.3.15,<0.4
+# langchain-anthropic==0.3.3
+langchain-community>=0.3.15,<0.4
+crewai==0.80.0
+crewai-tools # >=0.17.0,<0.25.0
+
+# LLM Providers
+# anthropic==0.40.0
+# openai==1.59.3  # Optional, if using OpenAI models
+
+# Async & HTTP
+aiohttp==3.11.11
+httpx==0.28.1
+asyncio-throttle==1.0.2
+
+# Database & Persistence
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+redis==5.2.1
+alembic==1.14.0
+sqlalchemy==2.0.36
+
+# Configuration & Settings
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# Social Media APIs
+# LinkedIn
+requests-oauthlib>=1.2.0,<2
+# Twitter/X
+tweepy==4.14.0  # Alternative: use direct OAuth 1.0a
+# Instagram (Meta Graph API)
+facebook-sdk==3.1.0  # Note: May need custom implementation
+
+# GitHub API
+PyGithub==2.5.0
+# Alternative: Use aiohttp directly for async
+
+# Observability & Logging
+langsmith>=0.3.45,<1.0
+python-json-logger==3.2.1
+sentry-sdk==2.19.2
+prometheus-client==0.21.0
+
+# Rate Limiting & Retries
+tenacity==9.0.0
+backoff==2.2.1
+
+# Task Queue (Optional)
+celery==5.4.0
+redis==5.2.1  # Also used as broker
+
+# Data Validation & Serialization
+marshmallow==3.23.2
+jsonschema==4.23.0
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-mock==3.14.0
+pytest-cov==6.0.0
+faker==33.1.0
+
+# Development Tools
+black==24.10.0
+flake8==7.1.1
+mypy==1.14.0
+isort==5.13.2
+pre-commit==4.0.1
+
+# Documentation
+mkdocs==1.6.1
+mkdocs-material==9.5.50
+
+# Utilities
+python-dateutil==2.9.0
+pytz==2024.2
+click==8.1.8
+rich==13.9.4  # For CLI output
+tqdm==4.67.1  # Progress bars
+
+# Image Processing (for Instagram)
+Pillow==11.0.0
+requests==2.32.3
+
+# Environment Management
+python-decouple==3.8
+
+# Security
+cryptography==44.0.0
+PyJWT==2.10.1
+
+# Type Hints
+typing-extensions==4.12.2
+
+# Monitoring
+datadog==0.50.2  # Optional
+newrelic==10.4.0  # Optional
+
+# Performance
+orjson==3.10.12  # Fast JSON
+# uvloop==0.21.0; sys_platform != 'win32'  # Fast event loop (Unix only)
