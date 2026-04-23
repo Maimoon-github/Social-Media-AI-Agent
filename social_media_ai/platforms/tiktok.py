@@ -126,7 +126,3 @@ class TikTokPoster(BasePoster):
         # For now, return placeholder while maintaining full BasePoster contract
         logger.info(f"Media ready for TikTok publish: {media_url[:100]}...")
         return f"media_{int(time.time())}"  # placeholder post_id
-
-
-# Clean export for platforms/__init__.py
-__all__ = ["TikTokPoster"]

@@ -143,7 +143,3 @@ class FacebookPoster(BasePoster):
             f"Local path provided: {image_path}. Use MediaHandler to host it."
         )
         return None
-
-
-# Clean export for platforms/__init__.py
-__all__ = ["FacebookPoster"]

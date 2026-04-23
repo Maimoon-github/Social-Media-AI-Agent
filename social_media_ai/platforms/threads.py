@@ -198,7 +198,3 @@ class ThreadsPoster(BasePoster):
         data = response.json()
         post_id = data.get("id")
         return post_id
-
-
-# Clean export for platforms/__init__.py
-__all__ = ["ThreadsPoster"]

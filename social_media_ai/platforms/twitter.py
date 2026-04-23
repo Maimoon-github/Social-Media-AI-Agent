@@ -133,7 +133,3 @@ class TwitterPoster(BasePoster):
                 "media_ids": None,
                 "error": error_msg,
             }
-
-
-# For easy importing
-__all__ = ["TwitterPoster"]

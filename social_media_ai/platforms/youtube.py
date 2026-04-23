@@ -146,7 +146,3 @@ class YouTubePoster(BasePoster):
                 "post_id": None,
                 "error": error_msg,
             }
-
-
-# Clean export for platforms/__init__.py
-__all__ = ["YouTubePoster"]
