@@ -22,7 +22,7 @@ from platforms import (
     FacebookPoster,
     ThreadsPoster,
     YouTubePoster,
-    TiktokPoster,
+    TikTokPoster,          # ← Must be this spelling
 )
 from utils.logger import logger
 
