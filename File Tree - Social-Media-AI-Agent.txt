@@ -1,0 +1,56 @@
+File Tree: Social-Media-AI-Agent
+Root path: c:\Users\Aurum\vscode\Social-Media-AI-Agent
+
+────────────────────────────────────────────────────────────────────────────────
+
+├── 📁 social_media_ai/
+│   ├── 📁 config/
+│   │   ├── 🐍 __init__.py
+│   │   ├── 🐍 platforms.py
+│   │   └── 🐍 settings.py
+│   ├── 📁 core/
+│   │   ├── 📁 crews/
+│   │   │   ├── 🐍 __init__.py
+│   │   │   ├── 🐍 agents.py
+│   │   │   ├── 🐍 content_crew.py
+│   │   │   └── 🐍 tasks.py
+│   │   ├── 📁 graph/
+│   │   │   ├── 🐍 __init__.py
+│   │   │   └── 🐍 workflow.py
+│   │   ├── 📁 tools/
+│   │   │   ├── 🐍 __init__.py
+│   │   │   ├── 🐍 image_gen_tool.py
+│   │   │   └── 🐍 search_tool.py
+│   │   ├── 🐍 __init__.py
+│   │   └── 🐍 llm_factory.py
+│   ├── 📁 platforms/
+│   │   ├── 🐍 __init__.py
+│   │   ├── 🐍 base.py
+│   │   ├── 🐍 facebook.py
+│   │   ├── 🐍 instagram.py
+│   │   ├── 🐍 linkedin.py
+│   │   ├── 🐍 threads.py
+│   │   ├── 🐍 tiktok.py
+│   │   ├── 🐍 twitter.py
+│   │   └── 🐍 youtube.py
+│   ├── 📁 scheduler/
+│   │   ├── 🐍 __init__.py
+│   │   ├── 🐍 queue.py
+│   │   └── 🐍 scheduler.py
+│   ├── 📁 ui/
+│   │   ├── 📁 templates/
+│   │   │   └── ⚙️ .gitkeep
+│   │   ├── 🐍 __init__.py
+│   │   └── 🐍 app.py
+│   ├── 📁 utils/
+│   │   ├── 🐍 __init__.py
+│   │   ├── 🐍 logger.py
+│   │   └── 🐍 media_handler.py
+│   ├── ⚙️ .env.example
+│   ├── 📝 README.md
+│   ├── ⚙️ docker-compose.yml
+│   └── 📄 requirements.txt
+├── 📝 README.MD
+└── 📄 setup_project.sh
+
+────────────────────────────────────────────────────────────────────────────────
