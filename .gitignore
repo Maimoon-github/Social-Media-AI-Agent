@@ -1,0 +1,99 @@
+prompt.md
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+.venv
+ENV/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Local LLM models (Ollama pulls into ~/.ollama, but if you store models locally)
+models/
+*.bin
+*.gguf
+*.onnx
+
+# API keys, secrets, tokens (critical for paid/free APIs)
+.env.local
+.env.*.local
+secrets.yaml
+secrets.json
+*.key
+*.pem
+credentials.json
+token.pickle
+
+# LangSmith traces / cache
+.langsmith/
+langsmith_debug.log
+
+# CrewAI outputs / local storage
+crewai_storage/
+*.crewai_local
+
+# Ollama temporary data
+.ollama/
+
+# Web search cache (custom scrapers)
+search_cache/
+*.cache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Data files from social media platforms (downloaded media)
+downloads/
+*.mp4
+*.jpg
+*.png
+*.jpeg
+
+# Output directories for generated posts
+output/
+drafts/
+scheduled_posts/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Environment-specific overrides
+config.local.yaml
+config.override.yaml
