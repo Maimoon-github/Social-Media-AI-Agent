@@ -1,1 +1,61 @@
-# Auto-generated file
+# ── Core AI Frameworks ──────────────────────────────────────────────────────
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-ollama>=0.2.0          # Official Ollama integration
+langchain-openai>=0.2.0          # OpenAI / Groq / Together API-compatible
+langgraph>=1.0.0                  # LangGraph 1.0 GA (Oct 2025)
+langsmith>=0.2.0                  # Tracing & evaluation
+crewai>=0.80.0                    # CrewAI with multimodal + agentic RAG
+crewai-tools>=0.15.0
+
+# ── LLM Providers (free/paid) ───────────────────────────────────────────────
+ollama>=0.4.0                     # Local LLMs via Ollama
+groq>=0.12.0                      # Groq (free tier: Llama-3.3-70B)
+together>=1.3.0                   # Together AI (free tier models)
+anthropic>=0.40.0                 # Claude API (optional)
+
+# ── Social Media Platform Libraries ─────────────────────────────────────────
+tweepy>=4.14.0                    # Twitter / X API v2
+linkedin-api>=2.1.0               # LinkedIn unofficial API
+facebook-sdk>=3.1.0               # Facebook Graph API
+google-api-python-client>=2.150.0 # YouTube Data API v3
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0
+TikTokApi>=6.4.0                  # TikTok unofficial API
+requests>=2.32.0                  # Meta Graph API (Instagram/Threads) direct calls
+python-multipart>=0.0.9
+
+# ── Scheduler & Queue ────────────────────────────────────────────────────────
+apscheduler>=3.10.4               # Advanced scheduler (cron, interval, date)
+redis>=5.2.0                      # Job queue backend
+celery>=5.4.0                     # Distributed task queue
+kombu>=5.3.0
+
+# ── UI ───────────────────────────────────────────────────────────────────────
+streamlit>=1.40.0                 # Main dashboard UI
+streamlit-option-menu>=0.4.0
+streamlit-aggrid>=1.0.5
+Pillow>=11.0.0                    # Image processing
+moviepy>=2.0.0                    # Video processing
+
+# ── Observability & Logging ──────────────────────────────────────────────────
+loguru>=0.7.2                     # Structured logging
+python-dotenv>=1.0.1
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+
+# ── Storage & Database ───────────────────────────────────────────────────────
+sqlalchemy>=2.0.36                # Post history DB
+alembic>=1.13.0
+aiosqlite>=0.20.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+httpx>=0.27.0
+tenacity>=9.0.0                   # Retry logic
+python-slugify>=8.0.4
+pytz>=2024.2
+croniter>=3.0.3                   # Cron expression parser
+jinja2>=3.1.4                     # Prompt templates
+beautifulsoup4>=4.12.3            # Content scraping
+duckduckgo-search>=6.3.7          # Free search tool for agents
