@@ -217,7 +217,3 @@ def get_image_edit_tool() -> BaseTool:
     """Stub for img2img / editing (can be expanded later)."""
     # For now return the same tool; extend _BaseImageGenTool with img2img later if needed
     return _BaseImageGenTool(name="image_editor")
-
-
-# Clean exports
-__all__ = ["get_image_gen_tool", "get_image_edit_tool"]

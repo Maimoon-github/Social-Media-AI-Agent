@@ -1,2 +1,2 @@
 # For clean imports in core/tools/__init__.py
-__all__ = ["get_search_tool", "get_website_search_tool"]
+__all__ = ["get_search_tool", "get_website_search_tool","get_image_gen_tool", "get_image_edit_tool"]
